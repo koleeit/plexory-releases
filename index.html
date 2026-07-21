@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plexory - The Missing Marketplace Browser for Claude Code</title>
+  <meta name="description" content="Browse, Compare & Manage All Your Claude Code Tools in one beautiful desktop app." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://plexory.dev/" />
+
+  <!-- Favicon (SVG inline data URI — no extra file needed) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236366f1'/%3E%3Ctext x='16' y='22' font-size='18' font-family='system-ui' font-weight='700' fill='white' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://plexory.dev/" />
+  <meta property="og:title" content="Plexory – The Missing Marketplace Browser for Claude Code" />
+  <meta property="og:description" content="Browse, Compare & Manage All Your Claude Code Tools in one beautiful desktop app. Discover MCP servers, skills, commands & hooks." />
+  <meta property="og:image" content="https://plexory.dev/og-image.png" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Plexory – The Missing Marketplace Browser for Claude Code" />
+  <meta name="twitter:description" content="Browse, Compare & Manage All Your Claude Code Tools in one beautiful desktop app." />
+  <meta name="twitter:image" content="https://plexory.dev/og-image.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: { DEFAULT: '#6366f1', light: '#818cf8', dark: '#4f46e5' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-bg {
+      background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.15) 0%, transparent 60%),
+                  linear-gradient(to bottom, #09090b, #18181b);
+    }
+  </style>
+</head>
+<body class="gradient-bg min-h-screen text-zinc-100">
+  <!-- Nav -->
+  <nav class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-lg bg-brand flex items-center justify-center font-bold text-white text-sm">P</div>
+      <span class="font-semibold text-lg">Plexory</span>
+    </div>
+    <a href="#pricing" class="text-sm text-zinc-400 hover:text-zinc-200 transition-colors">Pricing</a>
+  </nav>
+
+  <!-- Hero -->
+  <main class="max-w-4xl mx-auto px-6 pt-20 pb-32 text-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand/10 border border-brand/30 text-brand-light text-sm mb-8">
+      <span class="w-2 h-2 rounded-full bg-brand animate-pulse"></span>
+      Now in Early Access
+    </div>
+
+    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+      Browse, Compare &amp; Manage<br />
+      <span class="text-brand-light">All Your Claude Code Tools</span>
+    </h1>
+
+    <p class="mt-6 text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto">
+      The missing marketplace browser for the Claude Code ecosystem.<br />
+      Discover MCP servers, skills, commands & hooks — all in one place.
+    </p>
+
+    <!-- Screenshot placeholder -->
+    <div class="mt-12 rounded-xl border border-zinc-800 bg-zinc-900/50 p-8 max-w-3xl mx-auto">
+      <svg class="w-full h-64 rounded-lg" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="800" height="300" rx="8" fill="#1c1c22"/>
+        <rect x="20" y="20" width="180" height="260" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+        <rect x="220" y="20" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+        <rect x="220" y="160" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+        <rect x="420" y="20" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+        <rect x="420" y="160" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+        <rect x="620" y="20" width="160" height="260" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+        <text x="400" y="160" text-anchor="middle" fill="#71717a" font-size="14">Dashboard Preview</text>
+      </svg>
+    </div>
+
+    <!-- Features -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 text-left">
+      <div class="p-5 rounded-lg border border-zinc-800 bg-zinc-900/30">
+        <div class="w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-brand-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold mb-1">Discover</h3>
+        <p class="text-sm text-zinc-400">Browse 3 sources: Anthropic official, community repos, and GitHub topics.</p>
+      </div>
+      <div class="p-5 rounded-lg border border-zinc-800 bg-zinc-900/30">
+        <div class="w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-brand-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 012-2h2a2 2 0 012 2M9 5h6"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold mb-1">Compare</h3>
+        <p class="text-sm text-zinc-400">See what you have vs what's available. Never miss an update again.</p>
+      </div>
+      <div class="p-5 rounded-lg border border-zinc-800 bg-zinc-900/30">
+        <div class="w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-brand-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold mb-1">Install</h3>
+        <p class="text-sm text-zinc-400">One-click install of MCP servers, skills, and commands to your Claude config.</p>
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <section id="pricing" class="mt-24">
+      <h2 class="text-2xl font-bold mb-2">Simple Pricing</h2>
+      <p class="text-zinc-400 mb-10">Start free, upgrade when you need more.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto text-left">
+        <!-- Free -->
+        <div class="p-6 rounded-xl border border-zinc-800 bg-zinc-900/30">
+          <h3 class="font-semibold text-lg mb-1">Free</h3>
+          <p class="text-3xl font-bold mb-4">$0</p>
+          <ul class="space-y-2 text-sm text-zinc-400">
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Local config scanner</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Basic marketplace browse</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Manual install guides</li>
+          </ul>
+        </div>
+
+        <!-- Pro -->
+        <div class="p-6 rounded-xl border border-brand/50 bg-brand/5 relative">
+          <div class="absolute -top-3 left-6 px-2 py-0.5 bg-brand text-white text-xs font-medium rounded">Popular</div>
+          <h3 class="font-semibold text-lg mb-1">Pro</h3>
+          <p class="text-3xl font-bold mb-1">$29 <span class="text-base font-normal text-zinc-400">one-time</span></p>
+          <p class="text-sm text-zinc-500 mb-4">or $5/mo subscription</p>
+          <ul class="space-y-2 text-sm text-zinc-300">
+            <li class="flex items-center gap-2"><span class="text-brand-light">✓</span> Everything in Free</li>
+            <li class="flex items-center gap-2"><span class="text-brand-light">✓</span> One-click install/uninstall</li>
+            <li class="flex items-center gap-2"><span class="text-brand-light">✓</span> Auto-update notifications</li>
+            <li class="flex items-center gap-2"><span class="text-brand-light">✓</span> Config backup & restore</li>
+            <li class="flex items-center gap-2"><span class="text-brand-light">✓</span> Priority support</li>
+          </ul>
+          <a
+            href="https://plexory.lemonsqueezy.com/buy/plexory-pro?utm_source=landing&utm_medium=cta&utm_campaign=v0_1_0_launch"
+            onclick="trackCTA()"
+            data-testid="buy-pro"
+            data-pro-cta="lemonsqueezy"
+            data-cta-provider="lemonsqueezy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 block w-full text-center py-3 rounded-lg bg-brand hover:bg-brand-dark font-medium transition-colors"
+          >
+            Get Plexory Pro — Early-bird $29
+          </a>
+          <!--
+            LemonSqueezy 상품(slug: plexory-pro) publish 후 활성화된다.
+            상품 공개 전에는 404 가 표시되므로 PRE-RELEASE-v0.1.0.md
+            "보스 수동 - 3. LemonSqueezy Pro 상품 publish" 단계와 동기화한다.
+            UTM 파라미터는 LemonSqueezy 대시보드의 referrer 분석에 사용된다.
+          -->
+          <a
+            href="plexory://license"
+            data-testid="open-in-app"
+            class="mt-3 block w-full text-center py-2 rounded-lg border border-brand/50 text-brand-light text-sm font-medium hover:bg-brand/10 transition-colors"
+          >
+            Already have a key? Open in Plexory
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mt-24 max-w-2xl mx-auto text-left">
+      <h2 class="text-2xl font-bold mb-6 text-center">Frequently Asked</h2>
+      <div class="space-y-4">
+        <details class="p-4 rounded-lg border border-zinc-800 bg-zinc-900/30">
+          <summary class="font-medium cursor-pointer">What platforms are supported?</summary>
+          <p class="mt-2 text-sm text-zinc-400">macOS first. Windows and Linux ports are on the roadmap.</p>
+        </details>
+        <details class="p-4 rounded-lg border border-zinc-800 bg-zinc-900/30">
+          <summary class="font-medium cursor-pointer">Will Free users still get updates?</summary>
+          <p class="mt-2 text-sm text-zinc-400">Yes — scanner, browse, and manual install stay free forever. Pro unlocks automation.</p>
+        </details>
+        <details class="p-4 rounded-lg border border-zinc-800 bg-zinc-900/30">
+          <summary class="font-medium cursor-pointer">Can I get a refund?</summary>
+          <p class="mt-2 text-sm text-zinc-400">14-day no-questions-asked refund via LemonSqueezy.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-24 pt-8 border-t border-zinc-800 text-sm text-zinc-500 text-center">
+      <p>&copy; 2026 Plexory. Built for the Claude Code community.</p>
+    </footer>
+  </main>
+
+  <!-- Analytics stub -->
+  <script>
+    // TODO: replace with real analytics (Plausible or PostHog)
+    function trackCTA() {
+      console.log('CTA clicked:', new Date().toISOString());
+      // Future: window.plausible?.('CTA_Click');
+    }
+  </script>
+</body>
+</html>
