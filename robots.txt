@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koleeit.github.io/plexory-releases/sitemap.xml
