@@ -1,0 +1,22 @@
+# Plexory
+
+> A native macOS desktop browser for Claude Code. Discover, compare, and manage MCP servers, skills, slash commands, and hooks in one app.
+
+Plexory scans your local Claude Code config (`~/.claude.json`, `~/.claude/`, and per-project `.claude/` folders), browses the public marketplace, and shows a side-by-side diff so stale tools and popular-but-missing ones surface in one view.
+
+- Platform: macOS
+- Stack: Tauri 2, React 19, Rust
+- Price: free
+- Homepage: https://koleeit.github.io/plexory-releases/
+- Download: https://github.com/koleeit/plexory-releases/releases/latest
+
+## Features
+
+- Local scanner: indexes settings, MCP servers, hooks, and slash commands across global and per-project config.
+- Marketplace browser: searches GitHub topics and Anthropic's official list for available MCP servers and tools.
+- Diff view: compares installed tools against the marketplace to flag outdated or missing entries.
+
+## Links
+
+- Homepage: https://koleeit.github.io/plexory-releases/
+- Releases: https://github.com/koleeit/plexory-releases/releases/latest
