@@ -6,7 +6,7 @@ Plexory scans your local Claude Code config (`~/.claude.json`, `~/.claude/`, and
 
 - Platform: macOS
 - Stack: Tauri 2, React 19, Rust
-- Price: free
+- Price: Free tier (scanner, browse, manual install); Pro $29 one-time or $5/mo unlocks one-click install, auto-update, backup
 - Homepage: https://koleeit.github.io/plexory-releases/
 - Download: https://github.com/koleeit/plexory-releases/releases/latest
 
