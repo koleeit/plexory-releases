@@ -210,18 +210,45 @@
       <p class="text-zinc-400 text-center">Hand-editing <code class="text-brand-light">.claude.json</code> and hunting through scattered <code class="text-brand-light">.claude/</code> folders across every project is tedious and error-prone. Plexory shows all of it in one place.</p>
     </section>
 
-    <!-- Screenshot placeholder -->
-    <div class="mt-12 rounded-xl border border-zinc-800 bg-zinc-900/50 p-8 max-w-3xl mx-auto">
-      <svg class="w-full h-64 rounded-lg" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="800" height="300" rx="8" fill="#1c1c22"/>
-        <rect x="20" y="20" width="180" height="260" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
-        <rect x="220" y="20" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
-        <rect x="220" y="160" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
-        <rect x="420" y="20" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
-        <rect x="420" y="160" width="180" height="120" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
-        <rect x="620" y="20" width="160" height="260" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
-        <text x="400" y="160" text-anchor="middle" fill="#71717a" font-size="14">Dashboard Preview</text>
-      </svg>
+    <!-- Product screenshot: real Plexory marketplace UI -->
+    <div class="mt-12 rounded-xl border border-zinc-800 bg-zinc-900/50 p-2 sm:p-3 max-w-4xl mx-auto shadow-2xl shadow-black/40">
+      <img
+        src="screenshots/hero-marketplace.png"
+        alt="Plexory app showing the Claude Code marketplace with MCP servers, skills, and slash commands from Anthropic official, community repos, and GitHub topics, each with install status"
+        width="2560"
+        height="1328"
+        loading="eager"
+        decoding="async"
+        class="w-full h-auto rounded-lg"
+      />
+    </div>
+
+    <!-- Feature screenshots: detail + compare -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 max-w-4xl mx-auto">
+      <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-2">
+        <img
+          src="screenshots/mcp-server-detail.png"
+          alt="Plexory MCP server detail view for the github server showing the install command, scope picker, README, and one-click Install to Claude Code button"
+          width="2560"
+          height="1328"
+          loading="lazy"
+          decoding="async"
+          class="w-full h-auto rounded-lg"
+        />
+        <p class="text-xs text-zinc-500 text-center mt-2 mb-1">One-click install with global or per-project scope</p>
+      </div>
+      <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-2">
+        <img
+          src="screenshots/skills-commands-compare.png"
+          alt="Plexory comparison view showing installed skills and slash commands versus available ones, highlighting which tools have updates ready"
+          width="2560"
+          height="1328"
+          loading="lazy"
+          decoding="async"
+          class="w-full h-auto rounded-lg"
+        />
+        <p class="text-xs text-zinc-500 text-center mt-2 mb-1">See what you have vs what's available at a glance</p>
+      </div>
     </div>
 
     <!-- Features -->
