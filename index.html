@@ -193,7 +193,7 @@
     <!-- Free download CTA -->
     <div class="mt-10">
       <a
-        href="https://github.com/koleeit/plexory-releases/releases/latest"
+        href="https://github.com/koleeit/plexory-releases/releases/tag/v0.1.0-beta.9"
         data-testid="download-free"
         target="_blank"
         rel="noopener noreferrer"
@@ -251,6 +251,22 @@
       </div>
     </div>
 
+    <!-- Demo: search -> install flow (animated) -->
+    <div class="mt-12 max-w-4xl mx-auto">
+      <p class="text-center text-sm text-zinc-500 mb-3">See it in action: search, install, and compare in seconds</p>
+      <div class="rounded-xl border border-zinc-800 bg-zinc-900/50 p-2 sm:p-3 shadow-2xl shadow-black/40">
+        <img
+          src="demos/demo-flow.gif"
+          alt="Animated Plexory demo: searching the Claude Code marketplace, opening an MCP server to install it with one click, then comparing installed skills and slash commands against what is available"
+          width="900"
+          height="467"
+          loading="lazy"
+          decoding="async"
+          class="w-full h-auto rounded-lg"
+        />
+      </div>
+    </div>
+
     <!-- Features -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 text-left">
       <div class="p-5 rounded-lg border border-zinc-800 bg-zinc-900/30">
@@ -281,6 +297,30 @@
         <p class="text-sm text-zinc-400">One-click install of MCP servers, skills, and commands to your Claude config.</p>
       </div>
     </div>
+
+    <!-- Social proof: honest open-source signal, no fabricated metrics -->
+    <section data-testid="social-proof" class="mt-24 max-w-2xl mx-auto text-center">
+      <p class="text-sm font-medium uppercase tracking-wide text-zinc-500">Open source</p>
+      <h2 class="mt-2 text-2xl font-bold">Built in the open</h2>
+      <p class="mt-3 text-zinc-400">
+        Plexory ships its releases and landing on GitHub. Follow the build, file issues, or
+        help shape the roadmap - your star tells us it is worth pushing further.
+      </p>
+      <div class="mt-6">
+        <a
+          href="https://github.com/koleeit/plexory-releases"
+          data-testid="star-github"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-zinc-700 bg-zinc-900/60 hover:bg-zinc-800 text-white font-semibold transition-colors"
+        >
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.25l2.955 5.99 6.61.96-4.783 4.66 1.129 6.583L12 18.35l-5.911 3.107 1.129-6.583L2.435 10.2l6.61-.96L12 2.25z" />
+          </svg>
+          Star us on GitHub
+        </a>
+      </div>
+    </section>
 
     <!-- Pricing -->
     <section id="pricing" class="mt-24">
